@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "162b5b114d2b7f0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6d5a535e3e79627",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "092fc56ebaa1bcdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JPQL/JDBC Fetch Join 한계.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f1f3e0353fea3ca2",
+    "type": "split",
+    "children": [
+      {
+        "id": "df2b6b552f913d09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6428840079d3ddc0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1cdf6938ceac507f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "65e1ccf5067628ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "403f9dae97a5578e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a78717467ce751b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f4d43bc88450663",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JPQL/JDBC Fetch Join 한계.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e5ebfcae3daa769",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JPQL/JDBC Fetch Join 한계.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cdb365acb95b42e4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "734f03f59dc26d66",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JPQL/JDBC Fetch Join 한계.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "092fc56ebaa1bcdc",
+  "lastOpenFiles": [
+    "JPQL/JPQL 다형성 쿼리.md",
+    "JPQL/JPQL 의 페이징.md",
+    "Java/객체 지향/Interface.md",
+    "Java/객체 지향/추상화.md",
+    "Java/객체 지향/캡슐화.md",
+    "Java/객체 지향/추상 클래스.md",
+    "Java/객체 지향/Object Oriented Programming.md",
+    "Java/객체 지향/Modifier.md",
+    "Java/객체 지향 2.md",
+    "Java/객체 지향/다형성.md",
+    "Java/객체 지향/상속.md",
+    "Java/객체 지향",
+    "Java/무제 파일.md",
+    "ObjectMapper/Docs.md",
+    "JPA/Persistence Context.md",
+    "JPA/Entity 의 생명 주기.md",
+    "JPA/즉시로딩, 지연로딩, join 그리고 Fetch Join.md",
+    "JPA/Entity Manager Factory and Entity Manager.md",
+    "ImgData/Pasted image 20231003230044.png",
+    "ImgData/Pasted image 20231003224543.png",
+    "ImgData/Pasted image 20231003224437.png",
+    "ImgData/Pasted image 20231003224318.png",
+    "ImgData/Pasted image 20231003205009.png",
+    "JPQL/JPQL  FetchJoin.md",
+    "JPQL/Fetch Join 과 일반 Join의 차이.md",
+    "ImgData/Pasted image 20231003200449.png",
+    "JPQL/JPQL 벌크 연산.md",
+    "JPQL/JPQL Named Query.md",
+    "JPQL/JPQL Entity 직접 사용.md",
+    "ImgData/Pasted image 20231003171840.png",
+    "JPQL/JPQL 기본 함수.md",
+    "JPQL/JDBC Fetch Join 한계.md",
+    "JPQL/명시적 Join 과 묵시적 Join.md",
+    "JPA",
+    "MySQL/관계 대수/프로젝션.md",
+    "ImgData/Pasted image 20231003014351.png",
+    "ImgData/Pasted image 20231003013348.png",
+    "ImgData/Pasted image 20231003003034.png",
+    "ImgData",
+    "ObjectMapper",
+    "무제 파일.canvas",
+    "MySQL/관계 대수/Join",
+    "MySQL/관계 대수",
+    "MySQL",
+    "MySQL",
+    "JPQL",
+    "Java"
+  ]
+}
