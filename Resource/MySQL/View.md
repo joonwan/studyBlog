@@ -1,7 +1,7 @@
 
 ---
 
-## View 의 정의
+## View 란 무엇인가?
 
 View 란 하나 이상의 테이블을 합하여 만든 가상의 테이블을 의미한다. 여기서 합한다의 의미는 Select 문을 통해 얻은 최종 결과를 의미하며 뷰는 이러한 결과를 가상의 테이블로 정의하여 실제 테이블 처럼 사용할 수 있도록 만든 DB 개체이다.
 
@@ -38,5 +38,30 @@ select as *
 from book
 where bookname like "%축구%"
 ```
+
+
+## View 의 수정
+
+ 물리적인 테이블의 수정 작업과 같이 뷰도 필요에 따라 정의된 SQL 문의 수정이 필요하다. 이는 앞서 배운 View 생성문법중 `create` 뒤에 `or replace` 만 붙여줘도 된다.
+
+```MySQL
+create or replace view yourViewName(row_name ....)
+as select -- implementation your query
+```
+
+## View 의 삭제
+
+ 뷰를 삭제하고 싶으면 drop 문을 쓰면 된다.
+
+```MySQL
+drop view view_name;
+```
+
+
+## System View
+
+ 
+
+
 
 참고자료 : MySQL로 배우는 데이터 베이스와 실습 - 한빛 미디어
