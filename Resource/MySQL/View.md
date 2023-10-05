@@ -60,7 +60,11 @@ drop view view_name;
 
 ## System View
 
- 
+ 모든 DBMS에서는 DB 개체나 시스템의 통계 정보를 사용자가 직접 확인하게 할 수 있도록 시스템 뷰를 제공한다. 이는 데이터 딕셔너리 뷰 또는 시스템 카탈로그 라고도 한다. 또한 이는 DBMS의 정보를 테이블의 형태로 만들어 제공한다.
+
+```MySQL
+select * from INFORMATION_
+```
 
 
 
