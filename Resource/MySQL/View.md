@@ -30,4 +30,13 @@ as select -- implementation your query
 
 - 예제
 
-  Book table에서 
+Book table 에서 축구가 들어간 책만 보여주는 뷰를 만들자
+
+```MySQL
+create view vw_book
+select as *
+from book
+where bookname like "%축구%"
+```
+
+참고자료 : MySQL로 배우는 데이터 베이스와 실습 - 한빛 미디어
