@@ -103,6 +103,7 @@ List<TeamJPQL> resultList = em.createQuery("select t from TeamJPQL as t join fet
 
 - 컬렉션 Fetch Join 시 주의사항
 	- 일대다 조인시 Data 뻥튀기가 됨
+	- 참고 : hibernate 6 부터 자동 distinct 됨!!
 
 ![[Pasted image 20231003013348.png]]
 
