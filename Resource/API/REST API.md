@@ -13,7 +13,7 @@
 
 ---
 
-## REST 디자인 원칙
+## REST 의 특징
 
 ### 1. 균일한 인터페이스
 
@@ -49,12 +49,18 @@
 
 ---
 
-## REST API 작동 원리
+## REST API 디자인
 
- REST API는 HTTP 요청을 통해 통신함으로써 리소스 내에서 CRUD 등 표준 데이터 베이스 기능을 수행한다.
+ REST API 설계시 가장 중요한 부분 두가지는 아래와 같다.
+
+##### URI는 정보의 자원을 표현해야 한다.
+
+ 즉 자원의 이름을 표현하는데 
+- 자원에 대한 행위는 HTTP method로 표현한다. (GET, POST, PUT, DELETE)
 
 - GET 
-	- get 
+	- get method 를 이용해 데이터를 조회할 수 있도록 설계한다.
 - POST
+	- post method를 이용해 데이터를 생성할 수 있도록 한다.
 - PUT
 - DELETE
