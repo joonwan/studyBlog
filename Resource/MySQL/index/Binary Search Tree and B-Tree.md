@@ -34,7 +34,7 @@
 
 ## B tree의 중요한 4가지 parameter
 
- - 각 노드의 최대 자녀 노드의 수 M
+ - 각 노드의 최대 자녀 노드의 수 M (기준 Parameter)
 	 - 최대 M 개의 자식을 가질 수 있는 b tree 를 M 차 b tree라고 한다.
 
 - 각 노드가 가질 수 있는 키의 최대 수 M-1
@@ -42,9 +42,28 @@
 
 - 각 노드의 최소 자녀 노드 수 M/2 의 올림 
 	- M = 3 -> m/2 + 1 2
-	- Root node 나 Leef node에서는 제외
-		- Leef node : 자녀 노드가 없는 노드
+	- Root node 나 Leaf node에서는 제외
+		- Leaf node : 자녀 노드가 없는 노드
 		- Root node : 출발점이 되는 노드
 		- 
 - 각 노드의 최소 Key 수 M/2 올림 -1
 	- Root node 제외
+
+
+## B tree 의 특징
+
+- internal node의 key 수가 x개 라면 자녀 노드의 수는 언제나 x+1개이다.
+
+- 노드가 최소 하나의 키는 가지기 때문에 몇 차 B tree인지와 상관없이 internal node는 최소 두개의 자녀를 가진다.
+
+- M 이 정해지면 Root 노드를 제외하고 internal node는 최소 m/2 올림 개의 자녀 노드를 가질 수 있게 된다.
+
+- 즉 M 값이 정해지기 전에는 internal node는 최소 2개의 노드를 가지지만 M 값이 정해지면 M/2 의 올림한 값과 같은 노드의 개수를 가지게 된다.
+
+## B tree insert Data
+
+- data의 추가는 항상 leaf 노드에서 발생한다.
+- 노드가 넘치면 가운데 key를 기준으로 좌우 Key들은 분할하고 가운데 Key는 승진한다.
+	- 노드가 넘친다
+		- 하나의 노드에서 m-1 개 이상의 키를 보유하고 있다 라는 의미
+		
