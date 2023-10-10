@@ -13,6 +13,12 @@
 
 ---
 
+## REST 의 구성
+
+- 자원 - URI
+- 행위 - HTTP method
+- 표현
+
 ## REST 의 특징
 
 ### 1. 균일한 인터페이스
@@ -55,12 +61,31 @@
 
 ##### URI는 정보의 자원을 표현해야 한다.
 
- 즉 자원의 이름을 표현하는데 
-- 자원에 대한 행위는 HTTP method로 표현한다. (GET, POST, PUT, DELETE)
+ - 즉 자원의 이름을 표현하는데 중심을 둬야하며 DELETE 등 동사가 들어가서는 안된다.
+ - 또한 Slash 를 이용해 계층관계를 표현해야한다.
+ - 주의할 점으로 마지막에 Slash 를 넣지 않는다.
+ - _ 는 URI 에 사용하지 않고 대신 - 를 사용한다.
+ - URL 경로를 표현할 때 소문자를 이용하자
+ - 파일 확장자는 경로에 포함시키지 않는다. 대신 Accept header 를 사용하자
+ 
+##### 자원에 대한 행위는 HTTP method로 표현한다. (GET, POST, PUT, DELETE)
 
 - GET 
 	- get method 를 이용해 데이터를 조회할 수 있도록 설계한다.
 - POST
 	- post method를 이용해 데이터를 생성할 수 있도록 한다.
 - PUT
+	- put method 를 이용해 데이터를 update 하도록 한다.
 - DELETE
+	- delete 를 이용해 데이터를 삭제한다.
+
+
+##### Collection 과 Document
+
+ collection 과 document는 자원을 표현한다. document 는 단순 문서 또는 객체를 의미하며 컬렉션은 document 의 집합이라고 할 수 있다. 
+
+``` URI
+http://localhost:8080/members/1
+```
+
+ 여기서 members 는 member 객체를 모아둔 collection이라고 할 수 있으며 1 은 특정 멤버의 아이디를 의미한다고 가정하면 이는 document로 볼 수 있다.
