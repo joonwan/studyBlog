@@ -52,3 +52,12 @@ contourm(yi,xi,sla(:,:,i),data,'LineColor','k','LineWidth',2);
 The image below represents the boundary values as contour lines.
 
 ![[Pasted image 20231017154656.png]]
+
+
+---
+
+# Eddy observation using different data.
+
+## Sea Surface Temperature and Salinity Dataㄴ
+
+ Changes in sea surface temperature and salinity may be associated with eddy formation and movement. Analyzing such data can be used to identify eddies.
