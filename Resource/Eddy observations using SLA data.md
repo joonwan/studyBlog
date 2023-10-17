@@ -42,3 +42,13 @@ threshhold_w = 0.3;   %warm eddy
 
 #### 3. Drawing contour lines
 
+To use the previously set boundary values, we can utilize the 'contourm' function in MATLAB.
+
+```matlab
+data = [threshhold_w,threshhold_c]
+contourm(yi,xi,sla(:,:,i),data,'LineColor','k','LineWidth',2);
+```
+
+The image below represents the boundary values as contour lines.
+
+![[Pasted image 20231017154656.png]]
