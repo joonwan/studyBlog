@@ -20,8 +20,20 @@
 
 ### Thresholding for boundary value setting
 
+
+#### 1. plot sla data
+
  Plotting the SLA data for a specific date yields the following result
 
 ![[Pasted image 20231017151811.png]]
 
-In the image above, below Japan, you can see circular areas where the sea level is significantly lower or higher than the average.
+In the image above, below Japan, you can see circular areas where the sea level is significantly lower or higher than the average.These circular areas can be inferred as Warm Eddies and Cold Eddies, as mentioned earlier.So, the blue areas below the average sea level represent Cold Eddies, while the high yellow areas represent Warm Eddies.
+
+
+#### 2.  Setting the threshold value
+
+To delineate the circular regions, boundary values need to be set. The SLA value for the blue boundary areas on the image is estimated to be around -3.5, and the boundary value for the yellow areas is estimated to be 3.
+
+```matlab
+
+```
