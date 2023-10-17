@@ -15,8 +15,16 @@
  So, let's use SLA data, which represents height differences, to identify Eddies!!
 
 
-## Detecting Algorithm
 
+
+
+
+
+
+
+
+
+## Detecting Algorithm
 
 ### Thresholding for boundary value setting
 
@@ -54,10 +62,18 @@ The image below represents the boundary values as contour lines.
 ![[Pasted image 20231017154656.png]]
 
 
----
+
+
+
+
+
 
 # Eddy observation using different data.
 
-## Sea Surface Temperature and Salinity Dataㄴ
+## 1. Sea Surface Temperature and Salinity Data
 
  Changes in sea surface temperature and salinity may be associated with eddy formation and movement. Analyzing such data can be used to identify eddies.
+
+## 2. Current Data
+
+ Current data can be used to observe the movement of water in the ocean. Eddies are related to current patterns, so analyzing current data can help detect eddies.
