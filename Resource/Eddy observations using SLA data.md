@@ -12,7 +12,7 @@
   
   On the other hand, Cold Eddies rotate counterclockwise, causing water to move away from the center of the eddy due to the Coriolis force. This leads to lower sea levels measured in the vicinity of Cold Eddies compared to the surrounding area.
 
- So, let's use SLA data, which represents height differences, to identify Eddies!!.
+ So, let's use SLA data, which represents height differences, to identify Eddies!!
 
 
 ## Detecting Algorithm
@@ -27,7 +27,7 @@
 
 ![[Pasted image 20231017151811.png]]
 
-In the image above, below Japan, you can see circular areas where the sea level is significantly lower or higher than the average.These circular areas can be inferred as Warm Eddies and Cold Eddies, as mentioned earlier.So, the blue areas below the average sea level represent Cold Eddies, while the high yellow areas represent Warm Eddies.
+In the image above, below Japan, you can see circular areas where the sea level is significantly lower or higher than the average. These circular areas can be inferred as Warm Eddies and Cold Eddies, as mentioned earlier. So, the blue areas below the average sea level represent Cold Eddies, while the high yellow areas represent Warm Eddies.
 
 
 #### 2.  Setting the threshold value
