@@ -22,4 +22,10 @@
   
   On the other hand, Cold Eddies rotate counterclockwise, causing water to move away from the center of the eddy due to the Coriolis force. This leads to lower sea levels measured in the vicinity of Cold Eddies compared to the surrounding area.
 
- So ass getit!@!!
+ So, let's use SLA data, which represents height differences, to identify Eddies!!.
+
+
+## Detecting Algorithm
+
+
+### Thresholding for boundary value setting
