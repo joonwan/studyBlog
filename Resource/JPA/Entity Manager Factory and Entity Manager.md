@@ -12,4 +12,4 @@
 
 - Entity Manager은 Entity Manager Factory에 의해 생성이 된다.
 - 생성된 Entity Manager는 Connection Pool에서 Connection을 획득하여 DB에 접근한다.
-- Entity Manager가 생성될 때 1:1로 [[영속성 Context]] 가 생성된다.
+- Entity Manager가 생성될 때 1:1로 [[위성 해양학]] 가 생성된다.
